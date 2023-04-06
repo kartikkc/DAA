@@ -1,0 +1,4 @@
+#ifndef MYAUXFUNCTIONS_H_INCLUDED
+#define MYAUXFUNCTIONS_H_INCLUDED
+unsigned long StrToULong(char* x);
+#endif // MYAUXFUNCTIONS_H_INCLUDED

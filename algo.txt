@@ -1,0 +1,82 @@
+LAB0001  5 2
+
+5 = number of random numbers generated
+
+2 = number of files to be generated with the same number of random numbers
+
+
+argc == 1 
+convert argv to string
+and now take that argv to generate the random numbers.
+
+open file and generate the random numbers 
+and close the file
+
+argc == 2
+i = 0;
+open file-i and generate the random numbers in it.
+close the file.
+i++.
+repeat
+
+argc == 3 
+
+i= 0; 
+argv[2] = n;
+ask for user to set seed value;
+open file-1 generate the random numbes in it. 
+close the file. 
+i++.
+n--.
+
+repeat till n is smaller then 0.  (n>0).
+
+
+
+// Algo for sorting program!!
+
+
+main problem yaha hai!!
+-> file open karao
+
+file  format specify karne ke liye :
+                    -> sabse phele ek array lelo usme saare hard code kardo numbers( size of random numbers)
+
+                        uske baad uspe loop laga do!
+				// apne aap hota rhe change array ka number;
+                        for example : file.open("NUM-0"+i+"0000"+arr[i]+".txt");
+                        long long int n;
+                        file >> n;
+        
+
+multiple files ke liye chaiye ye!
+
+loop lagana padega!
+
+
+
+
+
+-> file ka data >> array
+
+array ko overwrite bhi kar skte hai isme koi problem nhi hai!
+
+iss part ko solve kaise karoge???
+
+
+
+
+
+
+
+
+
+
+
+
+Iske baad wala kaam ho jaayega!
+
+-> array pe sorting algo lagao
+-> comparsions count karo
+-> output format karo
+-> time nikalo 
